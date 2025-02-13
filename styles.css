@@ -1,0 +1,209 @@
+form {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+form button {
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+header {
+    background: linear-gradient(135deg, #34495e, #2c3e50);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.flight-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.flight-table th, .flight-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.flight-table th {
+    background: #2c3e50;
+    color: white;
+}
+
+.edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+}
+
+.edit-btn {
+    background: #27ae60;
+}
+
+.delete-btn {
+    background: #e74c3c;
+}
+
+
+/* Profile Picture Styling */
+.profile-picture {
+    display: block;
+    width: 150px; /* Adjust the size */
+    height: 150px;
+    border-radius: 50%; /* Makes it round */
+    object-fit: cover; /* Ensures the image fits inside */
+    border: 4px solid #4c7df5; /* Add a nice border */
+    margin: 20px auto; /* Centers it */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Adds a shadow effect */
+    transition: transform 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+.profile-picture:hover {
+    transform: scale(1.1); /* Enlarges slightly on hover */
+}
+
+
+
+        /* Profile Container */
+        .profile-container {
+            width: 50%;
+            margin: 40px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        /* Profile Title */
+        .profile-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Profile Picture */
+        .profile-picture {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #4c7df5;
+            margin-bottom: 15px;
+        }
+
+        /* Form Styling */
+        .profile-form {
+            width: 100%;
+            margin-top: 20px;
+            text-align: left;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: bold;
+            color: #555;
+            margin-bottom: 5px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: #f9f9f9;
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* Buttons */
+        .action-button {
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background 0.3s ease-in-out;
+        }
+
+        .edit-button {
+            background: #ff9800;
+            color: white;
+        }
+
+        .edit-button:hover {
+            background: #e68900;
+        }
+
+        .save-button {
+            background: #4caf50;
+            color: white;
+        }
+
+        .save-button:hover {
+            background: #43a047;
+        }
+
+        .delete-button {
+            background: #d32f2f;
+            color: white;
+            margin-top: 10px;
+        }
+
+        .delete-button:hover {
+            background: #b71c1c;
+        }
+
+        .back-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background: #4c7df5;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .back-button:hover {
+            background: #3b6cd4;
+        }

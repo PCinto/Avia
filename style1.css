@@ -1,0 +1,228 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in-out; /* Smooth transitions */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: #f3f6f9; /* Soft grayish background for smoothness */
+    color: #555; /* Darker, softer text color */
+    padding: 30px;
+}
+
+/* Container for centering content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6fa3f4, #4c7df5); /* Smooth gradient */
+    color: white;
+    padding: 25px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Slight shadow for depth */
+    margin-bottom: 40px;
+}
+
+header h1 {
+    font-size: 3.2em;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 25px;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 25px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-transform: uppercase; /* Clean, modern navigation style */
+}
+
+header nav ul li a:hover {
+    color: #ff9f00;
+    transform: scale(1.1); /* Smooth hover effect */
+}
+
+/* Main Section */
+main {
+    margin-top: 50px;
+}
+
+/* Intro Section */
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.intro h2 {
+    font-size: 2.7em;
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.25em;
+    margin-bottom: 25px;
+    color: #666;
+}
+
+.cta-button {
+    background: #4caf50;
+    color: white;
+    padding: 18px 40px;
+    border-radius: 8px;
+    font-size: 1.3em;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cta-button:hover {
+    background: #388e3c;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transform: translateY(-3px); /* Smooth lift effect on hover */
+}
+
+/* Features Section */
+.overview {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.feature {
+    background: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    transition: transform 0.3s ease; /* Smooth hover effect for feature cards */
+}
+
+.feature h3 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1.1em;
+    color: #777;
+}
+
+.feature:hover {
+    transform: translateY(-5px); /* Lift effect */
+}
+
+.feature:hover h3 {
+    color: #4caf50; /* Highlight title on hover */
+}
+
+/* Form Styles */
+form {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+form label {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+form input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.2); /* Focus effect */
+}
+
+form button {
+    background: #4caf50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    font-size: 1.2em;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #388e3c;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #f7f7f7;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .overview {
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header nav ul li {
+        margin: 0 15px;
+    }
+
+    .cta-button {
+        font-size: 1.2em;
+        padding: 15px 30px;
+    }
+
+    .feature {
+        margin-bottom: 30px;
+    }
+}
